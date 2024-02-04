@@ -1,0 +1,83 @@
+.user-management-container {
+  font-family: 'Arial', sans-serif;
+  color: #E6ECF0;
+  background-color: #15202B;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #324D5B;
+  background-color: #22303C;
+  color: #E6ECF0;
+  margin-right: 10px;
+}
+
+.search-container button {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #1991DA;
+}
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.user {
+  background-color: #192734;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.user.disabled {
+  opacity: 0.6;
+}
+
+.user p {
+  margin: 5px 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.enable-button, .disable-button {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enable-button:hover, .disable-button:hover {
+  background-color: #1991DA;
+}
+
+.disable-button {
+  background-color: #FF6B6B;
+}
+
+.disable-button:hover {
+  background-color: #E55E5E;
+}

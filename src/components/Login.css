@@ -1,0 +1,146 @@
+/* Login container */
+.login-container {
+  background-color: #15202B; /* Dark background color */
+  color: #ffffff; /* Light text for readability */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Login form styling */
+.login-form {
+  background-color: #192734; /* Slightly lighter dark background */
+  padding: 40px;
+  border-radius: 10px; /* Rounded corners for the form */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 320px; /* Max width of the form */
+}
+
+.login-form h2 {
+  color: #1DA1F2; /* Twitter's brand color for titles */
+  text-align: center;
+  margin-bottom: 20px; /* Spacing below the title */
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px; /* Spacing between form elements */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: .5rem;
+  color: #f3eeee; /* Light grey for the label */
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px; /* Rounded corners for input fields */
+  border: none;
+  background-color: #253341; /* Slightly lighter dark background for input */
+  color: #E1E8ED; /* Light text color for input */
+}
+
+/* Buttons */
+.login-button, .modal button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1DA1F2; /* Twitter's brand color for buttons */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover, .modal button:hover {
+  background-color: #1A91DA; /* A lighter shade of blue for hover effect */
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85); /* Darker semi-transparent backdrop */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* High z-index to be on top */
+}
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #15202B; /* Dark background color */
+  border-radius: 15px;
+  padding: 20px;
+  width: auto; /* Adjust width to fit content */
+  max-width: 400px; /* Maximum width of modal */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); /* More prominent shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+/* Close button inside the modal */
+.close-modal {
+  align-self: flex-end; /* Align to the right side */
+  margin-bottom: 15px; /* Margin from the content */
+  /* ... other styles ... */
+}
+
+/* Modal Heading and Text */
+.modal-heading {
+  color: #E1E8ED; /* Light text color for the heading */
+  margin-bottom: 1rem;
+}
+
+.modal-text {
+  color: #E1E8ED; /* Light text color for readability */
+  text-align: center; /* Center text */
+  margin-bottom: 1rem;
+}
+
+/* Modal Buttons */
+.modal-btn {
+  width: auto; /* Adjust width to content */
+  padding: 10px 20px;
+  /* ... other styles ... */
+}
+
+/* Adjustments for Invalid Credentials text */
+.invalid-credentials {
+  background-color: #ff6347; /* Red color for error */
+  color: white; /* White text on error */
+  border-radius: 20px; /* Rounded corners for error box */
+  padding: 10px;
+  margin-top: 20px; /* Space from other content */
+  width: 100%; /* Full width within the modal */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Error Modal Button */
+.invalid-credentials button {
+  background-color: #1DA1F2; /* Twitter's brand color for buttons */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px; /* Space from the text */
+  width: auto; /* Adjust width to content */
+}
+
+
+
+
+

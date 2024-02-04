@@ -1,0 +1,92 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #1DA1F2; /* Twitter's brand color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #38444D;
+}
+
+.company-name {
+  color: #E1E8ED;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons button {
+  background-color: transparent;
+  border: none;
+  color: #E1E8ED;
+  margin: 0 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-buttons button:hover {
+  background-color: #1A91DA;
+}
+
+.account-button {
+  background-color: #253341;
+  border: none;
+  color: #E1E8ED;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.account-button:hover {
+  background-color: #1A91DA;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px; /* Initial position */
+  width: 250px;
+  height: 100%;
+  background-color: #253341;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s;
+  z-index: 2;
+}
+
+.sidebar.open {
+  right: 0; /* Slide in */
+}
+
+.sidebar .close-btn {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar button {
+  display: block;
+  background-color: transparent;
+  color: #E1E8ED;
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #38444D;
+  transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+  background-color: #1A91DA;
+}

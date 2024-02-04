@@ -1,0 +1,47 @@
+.feed-container {
+  font-family: 'Arial', sans-serif;
+  color: #E6ECF0;
+  background-color: #15202B;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.feed-container h1 {
+  color: #1DA1F2;
+  text-align: center;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.blog-item {
+  background-color: #192734;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.blog-item:hover {
+  background-color: #22303C;
+}
+
+.blog-item h2 {
+  margin-top: 0;
+  color: #1DA1F2;
+}
+
+.blog-details {
+  font-size: 0.9em;
+  color: #8899A6;
+}
+
+.blog-details span {
+  display: block;
+  margin-top: 10px;
+}

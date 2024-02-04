@@ -1,0 +1,103 @@
+/* General styling */
+body {
+  background-color: #15202B; /* Dark background */
+  color: #E1E8ED; /* Light text color */
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* Search and Sort Container */
+.search-sort-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #38444D;
+}
+
+.search-container, .sort-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input, .search-container select, .sort-container select {
+  background-color: #253341;
+  border: 1px solid #38444D;
+  color: #E1E8ED;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  background-color: #1DA1F2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #1A91DA;
+}
+
+.blog-container {
+  padding: 20px;
+}
+
+.blog {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  background-color: #253341;
+  color: white;
+}
+
+.blog:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog h2 {
+  color: #189cee; 
+}
+
+.blog-details {
+  color: #8899A6; 
+  font-size: 0.9em;
+}
+
+
+/* Pagination Container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Pagination Buttons */
+.pagination-container button {
+  background-color: #1DA1F2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 5px; /* Add some margin between pagination buttons */
+}
+
+.pagination-container button:hover {
+  background-color: #1A91DA;
+}
+
+/* Current Page Indicator */
+.pagination-container span {
+  font-size: 1.2em;
+  margin: 0 10px; /* Add some margin between current page indicator and buttons */
+  color: #189cee;
+}

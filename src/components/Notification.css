@@ -1,0 +1,33 @@
+.notification-container {
+    font-family: 'Arial', sans-serif;
+    color: #E6ECF0;
+    background-color: #15202B;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .notification-container h1 {
+    color: #1DA1F2;
+    text-align: center;
+  }
+  
+  .notification-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notification-item {
+    background-color: #192734;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+  }
+  
+  .notification-item:hover {
+    background-color: #22303C;
+  }
+  
